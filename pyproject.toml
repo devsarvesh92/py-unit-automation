@@ -13,3 +13,7 @@ license = {text = "MIT"}
 
 [tool.pdm]
 package-type = "application"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

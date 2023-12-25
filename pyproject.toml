@@ -5,7 +5,9 @@ description = "Default template for PDM package"
 authors = [
     {name = "devsarvesh92", email = "sarveshdev92@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "py-unit-automation @ file:///Users/sarvesh/Personal/prep/py-unit-automation",
+]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
@@ -14,6 +16,10 @@ license = {text = "MIT"}
 [tool.pdm]
 package-type = "application"
 
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.3",
+]
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"

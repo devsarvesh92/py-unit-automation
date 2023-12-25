@@ -8,7 +8,7 @@ authors = [
 dependencies = [
     "py-unit-automation @ file:///Users/sarvesh/Personal/prep/py-unit-automation",
 ]
-requires-python = ">=3.6"
+requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 

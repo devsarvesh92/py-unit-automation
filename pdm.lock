@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:dec976b3646e50f5a5714521da606661b9bcdfcf9704406a882496beaca295cc"
+content_hash = "sha256:265611edfba5f5265103bd6efccc8b4d71b149a32b81fe93769902b97d85829e"
 
 [[package]]
 name = "black"
@@ -232,13 +232,10 @@ files = [
 [[package]]
 name = "py-unit-automation"
 version = "0.1.0"
-requires_python = "==3.11.*"
+requires_python = "==3.11"
 path = "./."
 summary = "Default template for PDM package"
 groups = ["default"]
-dependencies = [
-    "py-unit-automation @ file:///Users/sarvesh/Personal/prep/py-unit-automation",
-]
 
 [[package]]
 name = "pyproject-api"

@@ -6,9 +6,9 @@ authors = [
     {name = "devsarvesh92", email = "sarveshdev92@gmail.com"},
 ]
 dependencies = [
-    "py-unit-automation @ file:///Users/sarvesh/Personal/prep/py-unit-automation",
+    "py-unit-automation @ file:///${PROJECT_ROOT}/py-unit-automation",
 ]
-requires-python = ">=3.11"
+requires-python = "==3.11"
 readme = "README.md"
 license = {text = "MIT"}
 

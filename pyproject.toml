@@ -40,7 +40,9 @@ addopts = [
     "--ignore=deps,__pypackages__",
     "--cov=.",
     "--cov-report=term-missing",
-    "--cov-report=html",
+    "--cov-report=html:cov_html",
+    "--cov-fail-under=100",
+    "--cov-append"
 ]
 testpaths = ["tests"]
 markers = [
